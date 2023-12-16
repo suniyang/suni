@@ -1,0 +1,7 @@
+Name=input("Name: ")
+print("Hello "+Name+"! We are going to find out how long you have been alive!")
+Age=int(input("How old are you?"))
+print("You are "+str(Age)+" years old!")
+Months=int(Age*12)
+Days=int(Age*365)
+print(Name+"! You have been alived for "+ str(Months) +" months or you can say "+ str(Days)+" days!")
